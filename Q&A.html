@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IQ Questions</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body>
+    <!-- Intro Page -->
+    <div id="intro" class="page">
+        <h1>Welcome to the Random Question Game!</h1>
+        <p>I will be asked 10 random questions. Choose the correct answer and have fun!</p>
+        <button id="start-btn">Start Game</button>
+    </div>
+
+    <!-- Question Pages -->
+    <div id="questions" class="page" style="display: none;">
+        <div id="question-container">
+            <h2 id="question-text"></h2>
+            <div id="options">
+                <button class="option"></button>
+                <button class="option"></button>
+                <button class="option"></button>
+                <button class="option"></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Result Page -->
+    <div id="result" class="page" style="display: none;">
+        <h1>Thank You!</h1>
+        <p>Your answers have been recorded.</p>
+    </div>
+
+    <script src="k.js"></script>
+</body>
+</html>
